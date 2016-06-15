@@ -50,3 +50,7 @@ Set the environment variable to point to your deployed app:
 Finally, run the test
 
     python e2e/test_e2e.py
+
+To deploy:
+
+    gcloud preview app deploy app.yaml
